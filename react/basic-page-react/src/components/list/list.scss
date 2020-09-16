@@ -1,0 +1,38 @@
+
+.list-main {
+  align-items: center;
+  border: 0px solid green;
+  color: #777;
+  margin: 25px
+}
+.record{
+  margin: 0px 15%;
+  align-items: center;
+  display: grid;
+  grid-template-areas:
+    'count name email birth-date phone';
+    grid-template-columns: 12% 22% 22% 22% 22%;
+
+  border-bottom: 1px solid #29aae3;
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+.column{  
+  padding: 18px 26px;    
+  border-right: 1px solid #29aae3;
+  &:last-child {
+    border-right: 0;
+  }
+}
+.title-list{
+  padding-top: 10px; 
+  padding-bottom: 20px; 
+  color: #29aae3;
+  font-family: 'HelveticaUltraLight', Verdana;
+  font-size: 25pt;
+}
+.headers{
+  color: #012d52;
+  font-weight: bold;;
+}
